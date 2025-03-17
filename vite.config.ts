@@ -11,6 +11,6 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: true,
+    allowedHosts: ['ec2-35-178-95-132.eu-west-2.compute.amazonaws.com'],
   },
 });
